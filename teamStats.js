@@ -10,11 +10,11 @@ let team = {
         {opponent: 'Holly', teamPoints: 54, opponentPoints: 21}
     ],
 
-    get _players () {
+    get players () {
         return this._players;
     },
 
-    get _games () {
+    get games () {
         return this._games;
     },
     
@@ -43,4 +43,5 @@ team.addGame('The Mountain', 82, 23);
 team.addGame('Best USA team', 67, 21);
 team.addGame('The rock', 78, 45);
 
-console.log(team);
+console.log(team._players);
+console.log(team._games)
